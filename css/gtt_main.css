@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+.gtt_content{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+
+}
+.gtt_new1{
+    margin: 0 12px;
+    /* width: 100%; */
+    max-width: 640px;
+    min-width: 320px;
+
+}
+.gtt_new1 ul{
+    width: 100%;
+    overflow: hidden;
+    border:1px solid rgb(204,204,204);
+    box-sizing: border-box;
+    margin-bottom: 12%;
+}
+.gtt_new1 ul li{
+    position: relative;
+    float: left;
+    width: 25%;
+    border-top: 1px solid rgb(204,204,204);
+    border-left: 1px solid rgb(204,204,204);
+    box-sizing: border-box;
+}
+.gtt_new1 ul li:nth-of-type(1)::before,
+.gtt_new1 ul li:nth-of-type(3)::before{
+    position: absolute;
+    /* position:  */
+    content: "新品";
+    display: inline-block;
+    width: 35%;
+    background-color: red;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+
+}
+.gtt_new1 ul li:nth-of-type(-n+4){
+    border-top: none;
+}
+.gtt_new1 ul li:nth-of-type(4n+1){
+    border-left: 1px solid white ;
+}
+.gtt_new1 ul li a{
+    position: relative;
+    width: 100%;
+}
+.gtt_new1 ul li a p{
+    width: 100%;
+    height: 50%;
+    margin: 20% 0 5% 0;
+    text-align: center;
+}
+.gtt_new1 ul li img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 45%;
+    margin-bottom: 10%;
+}
+
+
+.gtt_new2{
+    margin: 0 12px 10% 12px;
+    max-width: 640px;
+    min-width: 320px;
+    height: 200px;
+}
+
+.gtt_new2 ul{
+    width: 100%;
+
+
+}
+.gtt_new2 ul li{
+    position: relative;
+    width: 50%;
+    float: left;
+    border:1px solid rgb(204,204,204);
+    box-sizing: border-box;
+}
+.gtt_new2 ul li:nth-of-type(-n+2){
+    border-bottom: 1px solid white;
+}
+.gtt_new2 ul li:nth-of-type(2n){
+    border-left: 1px solid white;
+}
+.gtt_new2 ul li a{
+    width: 100%;
+}
+.gtt_new2 ul li a img{
+    width: 40%;
+    margin: 10% 5%;
+}
+.gtt_new2 ul li a>div{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    color: #666;
+    width: 50%;
+}
+.gtt_new2 ul li a>div h3{
+    font-weight: normal;
+    font-size: 16px;
+}
+.gtt_new2 ul li a>div p{
+    font-size: 12px;
+}
+
+.gtt_title{
+    background-color: #eee;
+    margin: 0 12px;
+    max-width: 640px;
+    min-width: 320px;
+    overflow: hidden;
+    position: relative;
+}
+.gtt_title div{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    /*	float: left;*/
+    width: 52%;
+    /* background-color: red; */
+}
+.gtt_title>div>p:nth-of-type(2){
+    color: #666;
+    font-size: 12px;
+}
+.gtt_title img{
+    float: right;
+    width: 20%;
+}
+
+.gtt_list{
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 12px 5% 12px;
+}
+.gtt_list ul{
+    width: 100%
+}
+.gtt_list ul li{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(204,204,204);
+}
+.gtt_list ul li img{
+    float: left;
+    width: 40%;
+}
+.gtt_list ul li div{
+    margin: 3% 0;
+    width: 60%;
+    float: right;
+}
+.gtt_list ul li div>p{
+    margin-top: 5px;
+}
+.gtt_list ul li div>p:nth-of-type(1){
+    font-size: 12px;
+}
+.gtt_list ul li div>p:nth-of-type(2){
+    font-size: 13px;
+    color:#666;
+}
+.gtt_list ul li div>p:nth-of-type(3){
+    margin-left: 5px;
+    padding: 0px 5px;
+    display: inline-block;
+    font-size: 12px;
+    color:white;
+    background-color: red;
+}
+.gtt_list ul li div>p:nth-of-type(4){
+    font-size: 12px;
+    color: rgb(218,59,1);
+    margin-top: 10px;
+}
+.gtt_list ul li div>p:nth-of-type(4)>span{
+    font-size: 18px;
+}

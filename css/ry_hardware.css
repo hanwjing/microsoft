@@ -1,0 +1,486 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+}
+
+.top {
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+}
+
+.right {
+    width: 72%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+/* 图片 */
+
+.top_left {
+    display: inline-block;
+    width: 22%;
+    margin-top: 20px;
+}
+
+.top .top_left .imgs {
+    display: inline-block;
+    width: 100%;
+    height: 98%;
+    text-align: center;
+}
+
+.top .top_left .imgs img {
+    width: 60px;
+    line-height: 60px;
+    float: right;
+}
+
+.top .top_center {
+    display: inline-block;
+    width: 45%;
+}
+
+.top .top_right {
+    display: inline-block;
+    width: 50%;
+}
+
+.top .top_bottom {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    color: #333;
+}
+
+.top .top_bottom a {
+    width: 32px;
+    height: 40px;
+}
+
+.top .top_bottom a img {
+    width: 32px;
+}
+
+.right ul li {
+    margin-bottom: 10px;
+}
+
+.top_center ul li:nth-child(1) {
+    font-weight: bold;
+}
+
+.date_time {
+    margin: 15px 15px 0 15px;
+    color: #333;
+}
+
+.date_time ul li {
+    margin: 15px 0;
+}
+
+.judge {
+    margin: 0 15px 0 15px;
+    color: #333;
+}
+
+.judge p {
+    margin: 15px 0;
+}
+
+.border {
+    height: 5px;
+    background-color: #F6F6F6;
+}
+
+.bottom {
+    margin: 15px 15px 0 15px;
+    color: #333;
+}
+
+/* 输入框 */
+
+textarea {
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.consent {
+    width: 100%;
+    margin-top: 35px;
+}
+
+.consent_lf {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.consent_rg {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+.consent_left {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #FF5E5E;
+    color: #fff;
+    font-size: 16px;
+}
+
+.consent_right {
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00BA86;
+    color: #fff;
+    font-size: 16px;
+}
+
+.bottom_span {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: #EEE;
+    padding-left: 10px;
+}
+
+.height {
+    height: 50px;
+    width: 100%;
+}
+
+/*<!--=========================================以上是源码=====================================================================-->*/
+
+.ry_categoryEntrance {
+    width: 100%;
+}
+
+.ry_categoryEntrance ul li {
+    margin-top: 15px;
+    background-color: #f5f5f5;
+    padding: 0 1.5% 20px;
+}
+
+.ry_categoryEntrance .content .product h3 {
+    color: #333333;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.ry_categoryEntrance .content .product p {
+    font-size: 14px;
+    color: #333333;
+}
+
+.ry_categoryEntrance .content .product {
+    display: inline-block;
+}
+
+.ry_categoryEntrance ul li a {
+    color: #007abd;
+    text-decoration: none;
+}
+
+.ry_categoryEntrance ul li a h3 {
+    color: #333333;
+}
+
+.ry_categoryEntrance ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.ry_categoryHot {
+    width: 100%;
+    padding: 0 2% 20px;
+}
+
+.Hot_nav {
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.Hot_nav h1 {
+    color: #333333;
+    font-weight: normal;
+    font-size: 26px;
+    padding-left: 10px;
+
+}
+
+.ry_categoryHot .Hot_content {
+    width: 100%;
+    /*display: flex;*/
+}
+
+.ry_categoryHot .Hot_content ul {
+    width: 100%;
+}
+
+.ry_categoryHot .Hot_content ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.ry_categoryHot .Hot_content ul li {
+    width: 100%;
+    padding: 2% 1% 0.4%;
+    margin-top: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.ry_categoryHot .Hot_content ul li .Unit_left {
+    width: 38%;
+    /*height: 100%;*/
+    float: left;
+}
+
+.ry_categoryHot .Hot_content ul li .Unit_left img {
+    width: 100%;
+    height: 100%;
+}
+
+.ry_categoryHot .Hot_content li .Unit_right {
+    display: inline-block;
+    width: 61%;
+    flex: 1;
+    padding-left: 5px;
+}
+
+.ry_categoryHot .Hot_content li .Unit_right .Unit_right_up {
+    width: 100%;
+    height: 162px;
+}
+
+.ry_categoryHot .Hot_content li .Unit_right .Unit_right_up h3 {
+    font-size: 16px;
+    color: #333;
+    line-height: 18px;
+    padding-bottom: 9px;
+    display: block;
+}
+
+.ry_categoryHot .Hot_content li .Unit_right .Unit_right_up p {
+    font-size: 14px;
+    position: relative;
+}
+
+.ry_categoryHot .Hot_content li .Unit_right .Unit_right_down .star {
+    width: 100%;
+    height: 30px;
+}
+
+.ry_categoryHot .Hot_content li .Unit_right .Unit_right_down .star img {
+    height: 50%;
+}
+
+.ry_categoryHot .Hot_content li .Unit_right .Unit_right_down .star span {
+    display: inline-block;
+    font-size: 14px;
+    color: #666666;
+}
+
+.ry_categoryHot .Hot_content li .Unit_right .Unit_right_down .price {
+    color: #ec5412;
+    font-size: 20px;
+    height: 30px;
+    white-space: nowrap;
+}
+
+.ry_categoryIntroduce {
+    width: 100%;
+    padding: 2% 1% 0.4%;
+}
+
+.ry_categoryIntroduce .content {
+    padding: 50px 0 50px 0;
+    width: 100%;
+}
+
+.ry_categoryIntroduce h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.ry_categoryIntroduce ul {
+    list-style: circle;
+}
+
+.ry_categoryIntroduce ul li {
+    margin-top: 15px;
+}
+
+.ry_categoryIntroduce ul li::before {
+    content: '•  ';
+    font-size: 20px;
+}
+
+.ry_categoryIntroduce ul li a {
+    text-decoration: none;
+    color: #0067b8;
+}
+
+.ry_categoryIntroduce ul p {
+    margin-top: 15px;
+}
+
+.ry_categoryIntroduce ul p a {
+    text-decoration: none;
+    color: #0067b8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 640px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.ry_Hardware_lunbo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 214px;
+    position: relative;
+}
+
+.ry_Hardware_lunbo .lunbo_list {
+    width: 720px;
+    height: 214px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+}
+
+.ry_Hardware_lunbo .btn {
+    position: absolute;
+    top: 40%;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: orangered;
+    text-decoration: none;
+    text-align: center;
+    background: rgba(186, 186, 186, .5);
+    cursor: pointer;
+    z-index: 999;
+}
+
+.ry_Hardware_lunbo .next {
+    right: 0;
+}
+
+.ry_Hardware_lunbo .lunbo_list li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.ry_Hardware_lunbo .lunbo_list li a img {
+    width: 50%;
+    height: 214px;
+    border: none;
+    float: left;
+}
+
+.ry_Hardware_lunbo .lunbo_list .p1 {
+    transform: translate3d(-224px, 0, 0) scale(0.7);
+}
+
+.ry_Hardware_lunbo .lunbo_list .p2 {
+    transform: translate3d(0px, 0, 0) scale(0.7);
+    transform-origin: 0 50%;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.ry_Hardware_lunbo .lunbo_list .p3 {
+    transform: translate3d(235px, 0, 0) scale(1);
+    z-index: 3;
+    opacity: 1;
+}
+
+.ry_Hardware_lunbo .lunbo_list .p4 {
+    transform: translate3d(380px, 0, 0) scale(0.7);
+    transform-origin: 100% 50%;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.ry_Hardware_lunbo .lunbo_list .p5 {
+    transform: translate3d(672px, 0, 0) scale(0.7);
+}
+
+.ry_Hardware_lunbo .lunbo_list .p6 {
+    transform: translate3d(896px, 0, 0) scale(0.7);
+}
+
+.ry_Hardware_lunbo .lunbo_list .p7 {
+    transform: translate3d(1120px, 0, 0) scale(0.7);
+}
+
+.ry_Hardware_lunbo .buttons {
+    position: absolute;
+    width: 1200px;
+    height: 30px;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -600px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ry_Hardware_lunbo .buttons a {
+    display: inline-block;
+    width: 25px;
+.
+
+height: 5px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.ry_Hardware_lunbo .buttons span {
+    display: block;
+    width: 25px;
+    height: 1px;
+    background: #87878787;
+}
+
+.ry_Hardware_lunbo .buttons .blue {
+    background: orangered;
+}
+
+

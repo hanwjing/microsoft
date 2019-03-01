@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.ry19982001{
+    width: 100%;
+    position: relative;
+    background-color: #eeeeee;
+}
+
+.ry_container{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+.ry_container .icon{
+    position: relative;
+    top: 0;
+}
+.ry_container ul a:nth-of-type(-n+3) li .icon{
+    position: relative;
+    top: -10px;
+}
+
+.ry_container ul{
+    width: 100%;
+    height: 100%;
+}
+
+
+.ry_container ul li{
+    float: left;
+    text-align: center;
+    width: 33%;
+    height: 20%;
+    border-right: 1px solid darkgray;
+    box-sizing: content-box;
+    position: relative;
+    margin-top: 40px;
+}
+.ry_container ul a:nth-of-type(3n) li {
+    border: none;
+}
+
+.ry_container ul li p{
+    text-align: center;
+    color: darkgray;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    bottom: -8px;
+}
+
+.ry_signup{
+    width: 100%;
+    height: 140px;
+}
+
+.ry_signup span{
+    font-size: 12px;
+    position: relative;
+    top: 23px;
+    margin-left: 14px;
+    color: darkgray;
+}
+
+.ry_signup .inputbox{
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.ry_signup .inputbox .inputboxsub{
+    display: flex;
+}
+.ry_signup .inputbox input{
+    flex: 1;
+    height: 30px;
+    box-sizing: border-box;
+}
+.ry_signup .inputbox button{
+    width: 80px;
+    height: 30px;
+    color: #ffffff;
+    float: right;
+    right: 14%;
+    background-color: #0067b8;
+
+}
+.ry_signup .inputbox a{
+    display: block;
+    color: black;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.ry_title{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+
+}
+
+.ry_title span {
+    display: block;
+    margin-top: 15px;
+    border-bottom:  1px solid lightgray;
+    font-size: 12px;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.ry_title:nth-of-type(n+1){
+    border: none;
+}
+
+.ry_title ul {
+    list-style: none;
+    display: none;
+    margin-top: 15px;
+
+}
+
+.ry_title span ul a {
+    text-decoration: none;
+    color: black;
+}
+.ry_title ul a li {
+    margin-top: 10px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+
+.ry_title .otherlinks{
+    color: #0067b8;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.ry_main{
+    width: 100%;
+    height: 142px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+    position: relative;
+    margin-bottom: 20px;
+}
+.ry_main .language{
+    text-decoration: none;
+
+}
+.ry_main .language span{
+    color: black;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-bottom:3px;
+    line-height: 15px;
+}
+.ry_main .copyright{
+    width: 100%;
+    position: relative;
+    top: 15%;
+    left: 5px;
+    height: 70px;
+    background-color: transparent;
+}
+.ry_main .copyright a{
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+    height: 30px;
+    color: black;
+}
+.ry_main .copyright a span{
+    font-size: 10px;
+    line-height: 30px;
+}
+
+
+.ry_footer{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    background-color: #e7e7e7;
+
+}
+.ry_footer ul{
+    width: 100%;
+    height: 100%;
+}
+.ry_footer ul li {
+    width: 19%;
+    height: 100%;
+    float: left;
+    margin-left: 2px;
+    box-sizing: border-box;
+}
+.ry_footer ul li a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+}
+.ry_footer ul li a .icon{
+    position: relative;
+    top: 5px;
+}
+
+.ry_footer ul li a em{
+    color: black;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left:0;
+    font-style: normal;
+}
+
+.ry_subscription{
+    z-index: 9999;
+    width: 35px;
+    height: 39px;
+    position: fixed;
+    right: 0px;
+    bottom: 88px;
+}
+
+.to_top{
+    z-index: 9999;
+    width: 35px;
+    position: fixed;
+    height: 35px;
+    bottom: 50px;
+    right: 0;
+
+}
+
+
+.ry_popbox{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 326px;
+    background-color: #eee;
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    opacity: 1;
+    z-index: 99999;
+}
+.ry_popbox .closeBanner{
+    height: 16px;
+}
+.ry_popbox .closeBanner .close {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.ry_popbox .popcontainer{
+    position: relative;
+    margin: 0 auto;
+    width: 260px;
+    height: 260px;
+    text-align: center;
+}
+
+.ry_popbox h3{
+    font-size: 26px;
+}
+.ry_popbox .popcontainer p{
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.ry_popbox .mailbox{
+    width: 100%;
+
+}
+.ry_popbox .mailbox .inputnotice{
+    text-align: left;
+}
+
+.ry_popbox .popcontainer .userName,.mobilePhone,.mailBox{
+    height: 30px;
+    margin-top: 15px;
+    width: 234px;
+    color: gray;
+}
+
+.ry_popbox .linkBox{
+    position: relative;
+    right: 0;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+
+
+.ry_popbox .popcontainer .linkBox{
+    text-align: right;
+    width: 260px;
+
+
+}
+.ry_popbox .popcontainer button{
+    background-color: #0067b8;
+    width: 80px;
+    height: 30px;
+    color: white;
+}
+.ry_popbox .popcontainer .linkBox a{
+    width: 48px;
+    height: 30px;
+    text-decoration: none;
+    color: #0067b8;
+    font-size: 10px;
+}
+
+
+.ry_inactiveDialog{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(124,124,124,0.7);
+    z-index: 998;
+}

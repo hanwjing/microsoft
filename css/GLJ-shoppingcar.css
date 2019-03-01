@@ -1,0 +1,199 @@
+html,body,ul,li,img,a,p,div,form,input,h3,span{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    color: #666;
+}
+ul{
+    list-style: none;
+}
+input{
+    outline: none;
+    border: 1px solid #ccc;
+}
+.clearfix::before,.clearfix::after{
+    display: block;
+    content: "";
+    line-height: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.red{
+    color:red;
+}
+.f-l{
+    float:left;
+}
+.f-r{
+    float: right;
+}
+
+.content{
+    width:100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin:0 auto;
+}
+.GLJ-container{
+    width:100%;
+    padding:0 10px;
+}
+.GLJ-container .GLJ-cTop{
+    width:100%;
+}
+.GLJ-container .GLJ-cTop .GLJ-Ttext{
+    width:100%;
+    height:60px;
+    line-height: 60px;
+}
+.GLJ-container .GLJ-cTop .GLJ-Timage{
+    width:100%;
+    text-align: center;
+}
+.GLJ-container .GLJ-cTop .GLJ-Timage svg{
+    width:25%;
+    vertical-align: top;
+    margin:15px 0;
+}
+.GLJ-cBottom{
+    width:100%;
+    border-bottom: 1px solid gainsboro;
+}
+.GLJ-cBottom .GLJ-price{
+    width:100%;
+    font-size: 15px;
+    font-weight: 700;
+}
+.GLJ-cBottom .GLJ-button{
+    width:100%;
+    font-size: 14px;
+}
+.GLJ-cBottom .GLJ-button a{
+    padding:5px 45px ;
+    margin-top: 20px;
+    color: white;
+    background-color: #CCCCCC;
+}
+.GLJ-cBottom .GLJ-box{
+    width:100%;
+    margin-top: 20px;
+}
+.GLJ-cBottom .GLJ-box .GLJ-bbox{
+    font-size: 14px;
+    text-align: right;
+}
+.GLJ-cBottom .GLJ-box .GLJ-bbox a{
+    line-height: 30px;
+    display: inline-block;
+    text-align: left;
+    width: 125px;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+.GLJ-cBottom .GLJ-box .GLJ-bbox a:hover{
+    text-decoration: underline;
+}
+.GLJ-cBottom .GLJ-box .GLJ-bbox span svg{
+    width: 20px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.GLJ-cBottom>p{
+    font-size: 10px;
+    color: #B5B5B5;
+    text-align: right;
+    margin: 18px 0;
+}
+.GLJ-cBottom>p:nth-of-type(3){
+    color:#EC5411;
+}
+
+.GLJ-goods{
+    width:100%;
+}
+.GLJ-goods .GLJ-dv{
+    width:33.333%;
+    float: left;
+    padding:10px 10px;
+    text-align: center;
+}
+.GLJ-goods .GLJ-dv1{
+    width:100%;
+    height:200px;
+}
+.GLJ-goods .GLJ-dv img{
+    width:100%;
+}
+.GLJ-goods .GLJ-dv .fontStyle1{
+    color: #333;
+    font-size: 15px;
+}
+.GLJ-goods .GLJ-dv .fontStyle1:hover{
+    text-decoration: underline;
+}
+.GLJ-goods .GLJ-dv .fontStyle2{
+    font-size: 14px;
+    color: #666;
+    margin-top:10px;
+}
+.GLJ-goods .GLJ-dv .addcar{
+    display: inline-block;
+    padding:10px 30px;
+    background-color: #EC5411;
+    color: white;
+    font-size: 14px;
+}
+.GLJ-cTop .GLJ-Tgoods{
+    width:100%;
+    display: none;
+}
+.GLJ-cTop .GLJ-Tgoods .GLJ-Tone{
+    width:100%;
+    padding: 10px 0;
+    border-bottom:1px solid lightgray;
+}
+.GLJ-cTop .GLJ-Tgoods .GLJ-Tone .GLJ-goodsTop span{
+    font-size: 14px;
+    margin-left: 40px;
+}
+.GLJ-cTop .GLJ-Tgoods .GLJ-Tone .GLJ-goodsTop span:first-child{
+    margin-left: 35px;
+}
+.GLJ-Tgoods1{
+    width:100%;
+    padding-bottom: 30px;
+}
+.GLJ-Tgoods1 .GLJ-Tleft img{
+    width:120px;
+}
+.GLJ-Tgoods1 .GLJ-Tleft a{
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    color: #666;
+    margin:5px 0;
+}
+.GLJ-Tgoods1 .GLJ-Tright{
+    width:61%;
+}
+.GLJ-Tgoods1 .GLJ-Tright a{
+    color: #000;
+    display: block;
+}
+.GLJ-Tgoods1 .GLJ-Tright p{
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.GLJ-Tgoods1 .GLJ-Tright input{
+    width:30px;
+    margin-top: 10px;
+}
+.GLJ-Tgoods1 .GLJ-Tright p:last-child{
+    color: red;
+}

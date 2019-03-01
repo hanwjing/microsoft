@@ -1,0 +1,224 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: "微软雅黑";
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.clearfix::before,.clearfix::after{
+	display: block;
+	content: "";
+	line-height: 0;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.content{
+	max-width: 640px;
+	min-width: 320px;
+	width: 100%;
+	margin:0 auto;
+	border: none;
+	overflow: hidden;
+}
+.content .hwj_head{
+	width: 100%;
+	max-width: 640px;
+}
+.hwj_head .hwj_headBox1{
+	height:50px;
+	width: 100%;
+	background-color: #0067b8;
+}
+.hwj_head .hwj_headBox1 a{
+	display: block;
+	width: 100%;
+	height: 36px;
+	padding: 8px 0;
+	text-align: center;
+	color: #fff;
+	font-size:6px;
+}
+.hwj_head .hwj_headBox1 a div{
+	text-decoration: underline;
+}
+.hwj_head .hwj_headBox2{
+	width: 100%;
+	background-color: #eee;
+	position: relative;
+}
+.hwj_head .hwj_headBox2 .hwj_headIcon{
+	z-index: 99;
+	width: 100%;
+	overflow: hidden;
+
+}
+.hwj_head .hwj_headBox2 .hwj_headPartLeft{
+	width: 100px;
+	margin-left: 15px;
+	padding: 10px 0;
+	position: relative;
+	float: left;
+	cursor: pointer;
+}
+.hwj_head .hwj_headBox2 .hwj_headPartRight{
+	float: right;
+}
+.hwj_head .hwj_headBox2 .hwj_headPartRight i:nth-of-type(3){
+	border:1px solid #EEEEEE;
+}
+.hwj_head .hwj_headBox2 .hwj_headPartRight i{
+	padding:12px 8px;
+	margin:0 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.hwj_head .hwj_headBox2 .hwj_headPartRight i:first-child{
+	transform: rotateY(180deg);
+}
+.hwj_head .hwj_headBox2 .hwj_headSearch{
+	position: relative;
+	padding: 5px 10px ;
+	display: none;
+}
+.hwj_head .hwj_headBox2 .hwj_headSearch input{
+	box-sizing: border-box;
+	width: 100%;
+	height: 30px;
+	padding-left: 15px;
+}
+.hwj_head .hwj_headBox2 .hwj_headSearch i{
+	position: absolute;
+	bottom: 11px;
+	right: 20px;
+	font-size: 20px;
+	transform: rotateY(180deg);
+	cursor: pointer;
+}
+.hwj_head .hwj_headBox2 .hwj_headLoad{
+	position: absolute;
+	top: 45px;
+	right: 10px;
+	width: 230px;
+	height: 405px;
+	z-index: 999;
+	border:1px solid #ccc;
+	background-color: #fff;
+	display: none;
+}
+.hwj_headBox2 .hwj_headLoad .hwj_headLoadCenter{
+	font-weight: lighter;
+	box-sizing: border-box;
+	width: 100%;
+	padding:30px 30px;
+}
+.hwj_headLoadCenter h2{
+	color:#00adef;
+}
+.hwj_headLoadCenter h5{
+	margin:30px 0;
+	color:#666;
+}
+.hwj_headLoadCenter h4{
+	color:#666;
+}
+.hwj_headLoadCenter .hwj_headLoadButton{
+	width: 100%;
+	height: 40px;
+	background-color: yellowgreen;
+	text-align: center;
+	line-height: 40px;
+	margin:20px 0;
+}
+.hwj_headLoadCenter .hwj_headLoadButton a{
+	color:#333;
+}
+.hwj_headBox3 .hwj_headNav ul{
+	box-sizing: border-box;
+	list-style: none;
+	width: 100%;
+}
+.hwj_headBox3 .hwj_headNav ul li{
+	width: 100%;
+	height: 50px;
+	margin-left: 25px;
+	color: #0067b8;
+	font-size: 14px;
+}
+.hwj_headBox3 .hwj_headNav ul li:first-child{
+	margin-top: 16px;
+}
+.hwj_headBox3 .hwj_headNav ul .hwj_headActive::before{
+	position: absolute;
+	content:"新品";
+	width: 35px;
+	height: 22px;
+	left:70px;
+	margin-top: -16px;
+	text-align: center;
+	color:#fff;
+	background-color: red;
+	z-index: 9;
+}
+.hwj_headBox3 .hwj_headNav ul .hwj_headActive::after{
+	position: absolute;
+	content:"";
+	outline: none;
+	left:52px;
+	margin-top: -17px;
+	background-color: #f40;
+	border-right: 40px solid red;
+	border-bottom: 12px solid #fff;
+	border-top: 4px solid #fff;
+	transform-origin: right;
+	transform: rotateZ(-35deg);
+}
+.hwj_headBox3 .hwj_headNav ul li:last-child{
+	margin-left: 15px;
+	color: #666;
+	font-size: 12px;
+}
+
+
+
+
+
+.hwj_head .hwj_headBox3{
+	position: relative;
+	border-bottom: 1px solid #ccc;
+	width:100%;
+}
+.hwj_head .hwj_headBox3 .hwj_headNav1{
+	width:100%;
+}
+.hwj_head .hwj_headBox3 .hwj_headNav1 a:nth-of-type(1){
+	color: #0067b8;
+	margin-left: 20px;
+	display: inline-block;
+	padding-top: 10px;
+}
+.hwj_head .hwj_headBox3 .hwj_headNav1 a:nth-of-type(2){
+	display: inline-block;
+	padding:8px 13px;
+	float: right;
+	font-size: 22px;
+	color: #0067b8;
+	border-left:1px solid white;
+	border-top: 1px solid white;
+}
+.hwj_head .hwj_headBox3 .hwj_headNav{
+	position: absolute;
+	width:100%;
+	z-index:555;
+	background-color: white;
+	top:47px;
+}
+
+
+
+
+
+
+

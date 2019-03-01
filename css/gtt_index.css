@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.content{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+.gtt_kong{
+	width: 100%;
+	height: 150px;
+	background-color: yellow;
+}
+
+.gtt_banner{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.gtt_banner .gtt_banner_ul{
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 400%;
+	overflow: hidden;
+}
+.gtt_banner .gtt_banner_ul li{
+	float: left;
+	width: 25%;
+	
+}
+.gtt_banner .gtt_banner_ul li a{
+	vertical-align: text-top;
+	width: 100%;
+}
+
+.gtt_banner .gtt_banner_ul li a img{
+	width: 100%;
+}
+.gtt_banner .gtt_dot{
+	position: absolute;
+	left: 50%;
+	bottom: 5px;
+	transform: translateX(-50%);
+	overflow: hidden;
+}
+.gtt_banner .gtt_dot li{
+	float: left;
+	margin-left: 10px; 
+	width: 8px;
+	height: 8px;
+	border: 1px solid #333;
+	border-radius: 50%;
+}
+.gtt_banner .gtt_dot li:first-child{
+	margin-left: 0px;
+}
+.active{
+	background-color: #333;
+}
+
+
+.gtt_main{
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+	padding: 0 12px;
+	color: #333;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.gtt_hot{
+	
+	width: 100%;
+	position: relative;
+	line-height: 48px;
+}
+.gtt_hot>div{
+	width: 100%;
+	overflow: auto;
+}
+.gtt_hot ul{	
+	position: relative;
+	width: 800%;
+	overflow: hidden;
+}
+.gtt_hot .gtt_hot_main ul li{
+	float: left;
+	width: 4%;
+}
+.gtt_hot .gtt_hot_main ul li h3,
+.gtt_hot .gtt_hot_main ul li p,
+.gtt_hot .gtt_hot_main ul li img{
+	width: 90%;
+}
+h3{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.gtt_hot ul li p{
+	color: #666;
+	width: 100%;
+	height: 88px;	
+	font-size: 10px;	
+	overflow: hidden;
+	line-height: 22px;
+	/* text-overflow: ellipsis; */
+}
+
+
+.nomal{
+	width: 100%;
+}
+.nomal>p{
+	margin-top: 40px; 
+}
+.nomal>p:nth-of-type(2){
+	font-size: 10px;
+	margin-bottom: 40px;
+}
+
+.nomal>div{
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+.nomal ul{	
+	width: 100%;
+	overflow:hidden;
+}
+.nomal ul li{
+	float: left;
+	width: 33%;	
+}
+.nomal ul li:first-child{
+	margin-left: 0px;
+}
+.nomal ul li img{
+	width: 90%;
+}
+.nomal ul li p{
+	width: 90%;
+	color: #666;
+	font-size: 10px;
+	line-height: 22px;
+}
+
+.gtt_buy{
+	margin-top: 30px;
+	width: 100%;
+	max-width: 640px;
+	min-width: 320px;
+}
+.gtt_buy>div{
+	border-top: 1px solid #bbb;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.gtt_buy>div>div{
+	float: left;
+	width: 50%;
+}
+.gtt_buy>div>div:nth-of-type(2){
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	text-align: right;	
+}
+.gtt_buy .gtt_img img{
+	width: 100%;
+}
+
+.gtt_buy>div>div:nth-of-type(2) p{
+	margin-top: 10px; 
+	padding: 5px 10px;
+	display: inline-block;
+	border: 1px solid #cc5411;
+	color: #cc5411;
+}
+.gtt_buy h3{
+	margin-top: 5px;
+	font-weight: normal;
+	font-size: 18px;
+	color: #333;
+}
+
+.gtt_main .gtt_music ul{
+	width: 140%;
+}
+.gtt_main .gtt_music ul li{
+	width: 25%;
+}
+
+.gtt_main .gtt_reserve ul{
+	width: 200%;
+}
+.gtt_main .gtt_reserve ul li{
+	width: 16.66%;
+}
+.gtt_main .gtt_application ul{
+	width: 700%;
+}
+.gtt_main .gtt_application ul li{
+	width: 5%;
+}
+
+
+
+
+

@@ -1,0 +1,110 @@
+html,body,ul,li,img,a,p,div,form,input,h3{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    color: #666;
+}
+ul{
+    list-style: none;
+}
+input{
+    outline: none;
+    border: 1px solid #ccc;
+}
+.clearfix::before,.clearfix::after{
+    display: block;
+    content: "";
+    line-height: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.content{
+    width:100%;
+    max-width: 640px;
+    min-width: 320px;
+    margin:0 auto;
+}
+.GLJ-banner{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+.GLJ-banner .GLJ-bannerImg{
+    width:600%;
+    position: relative;
+    left:-100%;
+}
+.GLJ-banner .GLJ-bannerImg li{
+    float: left;
+    width: 16.6667%;
+}
+.GLJ-banner .GLJ-bannerImg li img{
+    width:100%;
+    vertical-align: bottom;
+}
+.GLJ-banner .GLJ-bannerIndicator{
+    position:absolute;
+    bottom:5px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.GLJ-banner .GLJ-bannerIndicator li{
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    border:1px solid #666666;
+    float: left;
+    margin-left: 10px;
+}
+.GLJ-banner .GLJ-bannerIndicator li:first-of-type{
+    margin-left: 0;
+}
+.GLJ-banner .GLJ-bannerIndicator .active{
+    background-color: #222;
+    border:0;
+}
+
+.GLJ-img{
+    width:100%;
+    padding: 3px 12px;
+    position: relative;
+}
+.GLJ-img .GLJ-imgTop{
+    width:100%;
+    border-bottom:1px solid gray ;
+}
+.GLJ-img .GLJ-imgTop img{
+    width:100%;
+    vertical-align: bottom;
+}
+.GLJ-img .GLJ-imgBottom{
+    width:100%;
+    background-color: #E3E3E3;
+}
+.GLJ-img .GLJ-imgBottom p:first-of-type{
+    width:100%;
+    font-size: 14px;
+    color: #222;
+    text-align: center;
+    padding:15px 0;
+}
+.GLJ-img .GLJ-imgBottom p:nth-of-type(2){
+    width:100%;
+    padding:30px 0;
+    position: relative;
+}
+.GLJ-img .GLJ-imgBottom p:nth-of-type(2) a{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:5px 40px;
+    font-size: 13px;
+    color: white;
+    background-color: #0067B8;
+}
